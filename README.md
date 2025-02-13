@@ -1,6 +1,18 @@
 # RAG 최적화 샘플
 
-Azure AI Search의 Capability만을 이용하여 RAG 앱의 품질 지표가 향상되는지 확인
+* Azure AI Search의 Capability만을 이용하여 RAG 앱의 품질 지표가 향상되는지 확인
+
+    * 강화 벡터 (text-embedding3-large)
+    * 멀티벡터
+    * BM25 + 벡터
+    * BM25 + 벡터 + 시맨틱 리랭킹
+    * BM25 + 벡터 + 시맨틱 리랭킹 + Query Rewrite
+ 
+    >[!Note]
+    >
+    > [search노트북 참고](./search.ipynb)
+
+    * 품질 지표 측정 및 수집은 [Azure AI Evaluator SDK](https://learn.microsoft.com/ko-kr/azure/ai-studio/how-to/develop/evaluate-sdk)사용
 
 ## 데이터셋
 
