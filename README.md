@@ -12,7 +12,7 @@
 >
 > [search노트북 참고](./search.ipynb)
 
-    * 품질 지표 측정 및 수집은 [Azure AI Evaluator SDK](https://learn.microsoft.com/ko-kr/azure/ai-studio/how-to/develop/evaluate-sdk)사용
+* 품질 지표 측정 및 수집은 [Azure AI Evaluator SDK](https://learn.microsoft.com/ko-kr/azure/ai-studio/how-to/develop/evaluate-sdk)사용
 
 ## 데이터셋
 
@@ -23,7 +23,8 @@
 ```json
 
 [
-    "query": "Let me know the address of service center", "category": "Service"
+    "query": "Let me know the address of service center", "category": "Service", 
+    "query": "I'd like to post a feedback for this product", "category": "General", 
 ]
 ```
 
