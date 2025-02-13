@@ -1,0 +1,8 @@
+**/*.json
+**/*.jsonl
+.env
+archives
+.DS_Store
+*.txt
+.venv
+config
