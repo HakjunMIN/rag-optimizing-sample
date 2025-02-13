@@ -8,9 +8,9 @@
     * BM25 + 벡터 + 시맨틱 리랭킹
     * BM25 + 벡터 + 시맨틱 리랭킹 + Query Rewrite
  
-    >[!Note]
-    >
-    > [search노트북 참고](./search.ipynb)
+> [!Note]
+>
+> [search노트북 참고](./search.ipynb)
 
     * 품질 지표 측정 및 수집은 [Azure AI Evaluator SDK](https://learn.microsoft.com/ko-kr/azure/ai-studio/how-to/develop/evaluate-sdk)사용
 
